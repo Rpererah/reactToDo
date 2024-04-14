@@ -1,0 +1,25 @@
+.checked{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    padding: 0.225rem;
+    background-color: var(--purple);
+}
+.notchecked{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid var(--blue);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    padding: 0.225rem;
+}
+.notchecked:hover{
+    border: 2px solid var(--blue-dark);
+
+}

@@ -1,0 +1,28 @@
+.header__main{
+    background-color:var(--gray-700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12.5rem;
+    text-align: center;
+
+}
+
+.logotipo{
+    height: 50px;
+    width: 30px;
+    padding-top: 0.5rem;
+    margin-right: 0.25rem;
+}
+
+.header__main .textColorOne{
+    color: var(--blue);
+}
+.header__main .textColorTwo{
+    color: var(--purple);
+}
+
+.header__main span{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
